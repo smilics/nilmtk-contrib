@@ -71,7 +71,7 @@ setup(
     version=FULLVERSION,
     packages=['nilmtk_contrib', 'nilmtk_contrib.disaggregate'],
     install_requires=[
-        'nilmtk>=0.4',
+        'nilmtk',
         'tensorflow>=2.0',
         'cvxpy>=1.0.0'
     ],
